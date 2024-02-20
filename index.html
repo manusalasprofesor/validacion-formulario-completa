@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="#" method="post" name="formulario" id="formulario">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <ul>
+                <li>
+                    <label for="nombre">Nombre y Apellidos</label><span></span>
+                    <input type="text" name="nombre" id="nombre" class="campo_no_validado" maxlength="120">
+                </li>
+                <li>
+                    <label for="correo">Correo Electrónico</label><span></span>
+                    <input type="email" name="correo" id="correo" class="campo_no_validado">
+                </li>
+                <li>
+                    <label for="telefono">Teléfono</label><span></span>
+                    <input type="tel" name="telefono" id="telefono" class="campo_no_validado" placeholder="xxx-xxx-xxx">
+                </li>
+                <li>
+                    <label for="dni">DNI</label><span></span>
+                    <input type="text" name="dni" id="dni" class="campo_no_validado" maxlength="9">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Enviar Formulario">
+            <p></p>
+        </fieldset>
+    </form>
+
+    <!-- Mis scripts -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
